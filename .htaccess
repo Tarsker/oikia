@@ -1,0 +1,11 @@
+# Habilitar el motor de reescritura
+RewriteEngine On
+
+# No redirigir las solicitudes de archivos estáticos en la carpeta assets
+RewriteCond %{REQUEST_URI} ^/assets/ [OR]
+RewriteCond %{REQUEST_URI} \.(css|js|png|jpg|jpeg|gif|ico|woff|woff2|ttf|svg|eot)$ [NC]
+RewriteRule ^ - [L]
+
+# Redirigir todo el tráfico a la carpeta 'public'
+RewriteRule ^public/ - [L]
+RewriteRule ^(.*)$ public/$1 [L]

@@ -1,0 +1,12 @@
+{
+  "name": "tu-usuario/oikia",
+  "description": "Proyecto de gestión de gastos inmobiliarios",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
