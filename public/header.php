@@ -1,7 +1,7 @@
 <header>
     <div class="header-content">
         <h1>Oikia</h1>
-        <img src="../assets/img/logo_hefesto.jpg" alt="Hefesto Solutions Logo" class="logo">
+        <img src="assets/img/logo_hefesto.jpg" alt="Logo Hefesto">
     </div>
 </header>
 
